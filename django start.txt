@@ -1,0 +1,23 @@
+easy_install django == 1.10.2
+django-admin --version
+django-admin startproject website
+manage.py -> dont delete, comes with django, helps access db
+__init.py__ -> a python package
+settings.py -> settings and config for websites on a broader scale
+urls.py -> table of contents for website, 
+wsgi.py -> web server gateway interface
+python manage.py startapp music
+migrations - connect website with databse
+admin.py -> every website has an admin access, admin functionality
+app.py -> config / settings for app
+models.py -> is a blueprint for database 
+views.py -> python function - takes user request and return a response
+
+urls should be app specific
+
+include urls in main app
+
+python manage.py makemigrations
+python manage.py migrate
+python manage.py sqlmigrate music 0001
+
